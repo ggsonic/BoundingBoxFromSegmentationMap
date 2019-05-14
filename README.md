@@ -2,6 +2,23 @@
 
 Generates bounding box annotations from segmentation maps for computer vision.  Capable of generating bounding boxes even if multiple of the same class in the image.  
 
+<p align = 'center'>
+<img src = 'img1.png' height = '200px'>
+<img src = '0001_box.png' height = '200px'>
+  <br>
+<img src = 'img2.png' height = '200px'>
+<img src = '0002_box.png' height = '200px'>
+  <br>
+<img src = 'img3.png' height = '200px'>
+<img src = '0003_box.png' height = '200px'>
+  <br>
+<img src = 'img4.png' height = '200px'>
+<img src = '0004_box.png' height = '200px'>
+
+<p align = 'center'>
+Examples.  Set to look for red objects.  See limitations below.
+</p>
+
 #1) Gets images from a folder (segmentation or id maps) 
 
 #2) Generates bounding boxes of the form x1, y1, x2, y2 for upright bounding boxes (bottem left coordinate and top right coordinate in pixels 
