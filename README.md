@@ -1,0 +1,2 @@
+# BoundingBoxFromSegmentationMap
+Generates bounding box annotations from segmentation maps for computer vision.  #1) Gets images from a folder (segmentation or id maps) #2) Generates bounding boxes of the form x1, y1, x2, y2 for upright bounding boxes (bottem left coordinate and top right coordinate in pixels #3) Saves data to csv file #4) Displays the sources and bounding box images (optional below) #5) Saves the bounding box images to file (optional below)
